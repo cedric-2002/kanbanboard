@@ -1,0 +1,17 @@
+import Board from "../components/boards.marko";
+import Menu from "../components/menu.marko";
+import "../styles/global.css"; 
+
+
+
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Kanban</title>
+  </head>
+  <body>
+    <h1>Kanban Board</h1>
+    <Menu showSettings=state.showSettings showFilter=state.showFilter />
+    <Board />
+  </body>
+</html>

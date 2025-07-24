@@ -1,0 +1,34 @@
+.column {
+  flex: 1;
+  min-width: 220px;
+  min-height: 100px;
+  background-color: rgba(163, 217, 119, 0.1); /* hellgrün milchig */
+  border-radius: 12px;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 0 8px rgba(72, 142, 55, 0.2); /* dunkleres Grün für Tiefe */
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem;
+  overflow: hidden;
+}
+
+.column-header {
+  text-align: center;
+  font-weight: bold;
+  color: #4e7939;
+  padding: 8px;
+  background: rgba(120, 190, 90, 0.2);
+  border-bottom: 2px solid rgba(120, 190, 90, 0.3);
+  backdrop-filter: blur(4px);
+}
+
+.column-divider {
+  height: 1px;
+  background: rgba(120, 190, 90, 0.4);
+  margin: 0 1rem;
+}
+
+.column-content {
+  padding: 1rem;
+  flex-grow: 1;
+}

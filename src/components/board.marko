@@ -1,0 +1,15 @@
+import Column from "./column.marko";
+import "../styles/board.css";
+
+
+
+<div class="board">
+  <div class="board-title-wrapper">
+    <h2 class="board-title">${input.title}</h2>
+  </div>
+  <div class="columns">
+    <for|column| of=input.columns>
+      <Column ...column />
+    </for>
+  </div>
+</div>

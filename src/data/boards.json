@@ -1,0 +1,48 @@
+{
+  "boards": [
+    {
+      "id": "board-0",
+      "title": "nicht zugewiesene Tickets",
+      "columns": [
+        { "id": "noid", "title": "Nicht zugewiesen" }
+      ]
+    },
+    {
+      "id": "board-1",
+      "title": "Projekt Alpha",
+      "columns": [
+        { "id": "todo", "title": "To Do" },
+        { "id": "doing", "title": "In Arbeit" },
+        { "id": "done", "title": "Erledigt" }
+      ]
+    },
+    {
+      "id": "board-2",
+      "title": "Projekt Beta",
+      "columns": [
+        { "id": "backlog", "title": "Backlog" },
+        { "id": "review", "title": "In Review" },
+        { "id": "completed", "title": "Completed" }
+      ]
+    },
+    {
+      "id": "board-3",
+      "title": "Projekt Gamma",
+      "columns": [
+        { "id": "ideen", "title": "Ideen" },
+        { "id": "konzept", "title": "Konzeptphase" },
+        { "id": "umsetzung", "title": "Umsetzung" },
+        { "id": "test", "title": "Testphase" }
+      ]
+    },
+    {
+      "id": "board-4",
+      "title": "Support",
+      "columns": [
+        { "id": "eingang", "title": "Eingang" },
+        { "id": "bearbeitung", "title": "In Bearbeitung" },
+        { "id": "abgeschlossen", "title": "Abgeschlossen" }
+      ]
+    }
+  ]
+}

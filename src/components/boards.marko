@@ -1,0 +1,13 @@
+import fs from "fs/promises";
+import path from "path";
+import Board from "./board.marko";
+
+<await|data|=fs.readFile(path.resolve("src/data/boards.json"), "utf-8")>
+  <const/boards=JSON.parse(data).boards>
+
+  <div class="boards">
+    <for|board| of=boards>
+      <Board ...board />
+    </for>
+  </div>
+</await>
